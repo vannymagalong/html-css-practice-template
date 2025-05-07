@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header id="header" class="header"></header>
+    <main id="main"></main>
+    <div id="footer"></div>
+
+    <script>
+      fetch("partials/header.html")
+        .then((res) => res.text())
+        .then((data) => (document.getElementById("header").innerHTML = data));
+
+      const sections = [
+        "hero", 
+        "hero-low", 
+        "hero-fifty",
+        "promo-fifty",
+        "promo-triple",
+        "image-fifty",
+        "video"
+      ];
+      let sectionContents = [];
+      if (sections.length) {
+        sections.forEach((name) => {
+          fetch(`sections/${name}.html`)
+            .then((response) => {
+              if (response.ok) return response.text();
+            })
+            .then((data) => sectionContents.push(data));
+        });
+
+        setTimeout(() => {
+          document.getElementById("main").innerHTML = sectionContents.join("");
+        }, 100);
+      }
+
+      fetch("partials/footer.html")
+        .then((res) => res.text())
+        .then((data) => (document.getElementById("footer").innerHTML = data));
+    </script>
+  </body>
+</html>

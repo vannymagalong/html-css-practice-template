@@ -1,0 +1,268 @@
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: inherit;
+}
+
+/* HEADLINE */
+
+.headline-4xl {
+    font-family: var(--Font-Family-Headline, Karla);
+    font-size: var(--Size-Desktop-4XL, 40px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Bold, 700);
+    line-height: var(--Line-Height-Desktop-4XL, 41px);
+    letter-spacing: -0.4px;
+}
+
+.headline-3xl {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Headline, Karla);
+    font-size: var(--Size-Desktop-3XL, 30px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Bold, 700);
+    line-height: var(--Line-Height-Desktop-3XL, 32px);
+}
+
+.headline-2xl {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Headline, Karla);
+    font-size: var(--Size-Desktop-2XL, 24px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Bold, 700);
+    line-height: var(--Line-Height-Desktop-2XL, 28px);
+}
+
+.headline-xl {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Headline, Karla);
+    font-size: var(--Size-Desktop-XL, 22px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Bold, 700);
+    line-height: var(--Line-Height-Desktop-XL, 25px);
+}
+
+.headline-lg {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Headline, Karla);
+    font-size: var(--Size-Desktop-LG, 20px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Bold, 700);
+    line-height: var(--Line-Height-Desktop-2XL, 21px);
+}
+
+.headline-md {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Headline, Karla);
+    font-size: var(--Size-Desktop-MD, 18px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Bold, 700);
+    line-height: var(--Line-Height-Desktop-MD, 21px);
+}
+
+.headline-sm {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Headline, Karla);
+    font-size: var(--Size-Desktop-SM, 16px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Bold, 700);
+    line-height: var(--Line-Height-Desktop-SM, 20px);
+}
+
+.headline-base {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Headline, Karla);
+    font-size: var(--Size-Desktop-Base, 14px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Bold, 700);
+    line-height: var(--Line-Height-Desktop-Base, 17px);
+}
+
+.headline-xs {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Headline, Karla);
+    font-size: var(--Size-Desktop-Base, 11px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Bold, 700);
+    line-height: var(--Line-Height-Desktop-Base, 14px);
+}
+
+/* TEXT */
+
+.text-4xl {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Text, Karla);
+    font-size: var(--Size-Desktop-4XL, 40px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Regular, 400);
+    line-height: var(--Line-Height-Desktop-4XL, 41px);
+    letter-spacing: -1px;
+}
+
+.text-3xl {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Text, Karla);
+    font-size: var(--Size-Desktop-3XL, 30px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Regular, 400);
+    line-height: var(--Line-Height-Desktop-3XL, 32px);
+}
+
+.text-2xl {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Text, Karla);
+    font-size: var(--Size-Desktop-2XL, 24px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Regular, 400);
+    line-height: var(--Line-Height-Desktop-2XL, 28px);
+}
+
+.text-xl {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Text, Karla);
+    font-size: var(--Size-Desktop-XL, 22px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Regular, 400);
+    line-height: var(--Line-Height-Desktop-XL, 25px);
+}
+
+.text-lg {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Text, Karla);
+    font-size: var(--Size-Desktop-LG, 20px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Regular, 400);
+    line-height: var(--Line-Height-Desktop-LG, 21px);
+}
+
+.text-md {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Text, Karla);
+    font-size: var(--Size-Desktop-MD, 18px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Regular, 400);
+    line-height: var(--Line-Height-Desktop-MD, 21px);
+}
+
+.text-sm {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Text, Karla);
+    font-size: var(--Size-Desktop-SM, 14px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Regular, 400);
+    line-height: var(--Line-Height-Desktop-SM, 17px);
+}
+
+.text-base {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Text, Karla);
+    font-size: var(--Size-Desktop-Base, 14px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Regular, 400);
+    line-height: var(--Line-Height-Desktop-Base, 17px);
+}
+
+.text-xs {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: var(--Font-Family-Text, Karla);
+    font-size: var(--Size-Desktop-XS, 11px);
+    font-style: normal;
+    font-weight: var(--Font-Weight-Regular, 400);
+    line-height: var(--Line-Height-Desktop-XS, 14px);
+}
+
+/* MEDIA QUERY */
+@media screen {
+    @media (max-width: 750px) {
+        .headline-4xl {
+            font-size: var(--Size-Mobile-4XL);
+            line-height: var(--Line-Height-Mobile-4XL);
+        }
+        
+        .headline-3xl {
+            font-size: var(--Size-Mobile-3XL);
+            line-height: var(--Line-Height-Mobile-3XL);
+        }
+        
+        .headline-2xl {
+            font-size: var(--Size-Mobile-2XL);
+            line-height: var(--Line-Height-Mobile-2XL);
+        }
+        
+        .headline-xl {
+            font-size: var(--Size-Mobile-XL);
+            line-height: var(--Line-Height-Mobile-XL);
+        }
+        
+        .headline-lg {
+            font-size: var(--Size-Mobile-LG);
+            line-height: var(--Line-Height-Mobile-2XL);
+        }
+        
+        .headline-md {
+            font-size: var(--Size-Desktop-MD);
+            line-height: var(--Line-Height-Desktop-MD);
+        }
+        
+        .headline-sm {
+            font-size: var(--Size-Mobile-SM);
+            line-height: var(--Line-Height-Mobile-SM);
+        }
+        
+        .headline-base {
+            font-size: var(--Size-Mobile-Base);
+            line-height: var(--Line-Height-Mobile-Base);
+        }
+        
+        .headline-xs {
+            font-size: var(--Size-Mobile-Base);
+            line-height: var(--Line-Height-Mobile-Base);
+        }
+        
+        /* TEXT */
+        
+        .text-4xl {
+            font-size: var(--Size-Mobile-4XL);
+            line-height: var(--Line-Height-Mobile-4XL);
+        }
+        
+        .text-3xl {
+            font-size: var(--Size-Mobile-3XL);
+            line-height: var(--Line-Height-Mobile-3XL);
+        }
+        
+        .text-2xl {
+            font-size: var(--Size-Mobile-2XL);
+            line-height: var(--Line-Height-Mobile-2XL);
+        }
+        
+        .text-xl {
+            font-size: var(--Size-Mobile-XL);
+            line-height: var(--Line-Height-Mobile-XL);
+        }
+        
+        .text-lg {
+            font-size: var(--Size-Mobile-LG);
+            line-height: var(--Line-Height-Mobile-LG);
+        }
+        
+        .text-md {
+            font-size: var(--Size-Mobile-MD);
+            line-height: var(--Line-Height-Mobile-MD);
+        }
+        
+        .text-sm {
+            font-size: var(--Size-Mobile-SM);
+            line-height: var(--Line-Height-Mobile-SM);
+        }
+        
+        .text-base {
+            font-size: var(--Size-Mobile-Base);
+            line-height: var(--Line-Height-Mobile-Base);
+        }
+        
+        .text-xs {
+            font-size: var(--Size-Mobile-XS);
+            line-height: var(--Line-Height-Mobile-XS);
+        }
+    }
+}

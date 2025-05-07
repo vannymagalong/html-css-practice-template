@@ -1,0 +1,114 @@
+:root {
+    /* COLORS */
+    /* Primary */
+    --Primitive-Primary-Black: #000000;
+    --Primitive-Primary-Grey-Dark: #ADADAB;
+    --Primitive-Primary-Grey-Medium: #E9E9E9;
+    --Primitive-Primary-Grey-Standard: #F8F8F8;
+    --Primitive-Primary-Grey-Light: #FCFCFC;
+    --Primitive-Primary-White: #FFFFFF;
+
+    /* Secondary */
+    --Primitive-Secondary-Yellow: #F7E947;
+    --Primitive-Secondary-Red: #F7E947;
+
+
+    /* FONTS */
+    /* Font family */
+    --Font-Family-Headline: "Karla";
+    --Font-Family-Text: "Karla";
+
+    /* Font weight */
+    --Font-Weight-Regular: 400;
+    --Font-Weight-Bold: 700;
+
+    /* Font size (DESKTOP) */
+    --Size-Desktop-4XL: 40px;
+    --Size-Desktop-3XL: 30px;
+    --Size-Desktop-2XL: 24px;
+    --Size-Desktop-XL: 22px;
+    --Size-Desktop-LG: 20px;
+    --Size-Desktop-MD: 18px;
+    --Size-Desktop-SM: 16px;
+    --Size-Desktop-Base: 14px;
+    --Size-Desktop-XS: 11px;
+
+    /* Font size (MOBILE) */
+    --Size-Mobile-4XL: 24px;
+    --Size-Mobile-3XL: 20px;
+    --Size-Mobile-2XL: 18px;
+    --Size-Mobile-XL: 17px;
+    --Size-Mobile-LG: 16px;
+    --Size-Mobile-MD: 15px;
+    --Size-Mobile-SM: 14px;
+    --Size-Mobile-Base: 13px;
+    --Size-Mobile-XS: 10px;
+
+    /* Line Height (Desktop) */
+    --Line-Height-Desktop-4XL: 41px;
+    --Line-Height-Desktop-3XL: 32px;
+    --Line-Height-Desktop-2XL: 28px;
+    --Line-Height-Desktop-XL: 25px;
+    --Line-Height-Desktop-LG: 21px;
+    --Line-Height-Desktop-MD: 21px;
+    --Line-Height-Desktop-SM: 20px;
+    --Line-Height-Desktop-Base: 17px;
+    --Line-Height-Desktop-XS: 14px;
+
+    /* Line Height (Mobile) */
+    --Line-Height-Mobile-4XL: 28px;
+    --Line-Height-Mobile-3XL: 21px;
+    --Line-Height-Mobile-2XL: 20px;
+    --Line-Height-Mobile-XL: 20px;
+    --Line-Height-Mobile-LG: 19px;
+    --Line-Height-Mobile-MD: 18px;
+    --Line-Height-Mobile-SM: 16px;
+    --Line-Height-Mobile-Base: 16px;
+    --Line-Height-Mobile-XS: 13px;
+
+    /* SPACING */
+
+    --Block-Desktop-Width: 1440px;
+    --Block-Mobile-Width: 750px;
+
+    --px-0: 0;
+    --px-4: 4px;
+    --px-8: 8px;
+    --px-16: 16px;
+    --px-24: 24px;
+    --px-32: 32px;
+    --px-40: 40px;
+    --px-48: 48px;
+    --px-56: 56px;
+    --px-64: 64px;
+    --px-72: 72px;
+    --px-80: 80px;
+    --px-88: 88px;
+    --px-96: 96px;
+    --px-104: 104px;
+    --px-112: 112px;
+    --px-120: 120px;
+    --px-256: 256px;
+
+    /* Corner Radius (Desktop) */
+    --Corner-Radius-Desktop-General: var(--px-4);
+    --Corner-Radius-Desktop-Button: var(--px-4);
+    --Corner-Radius-Desktop-Block: var(--px-32);
+    --Corner-Radius-Desktop-Card: var(--px-0);
+
+    /* Corner Radius (Mobile) */
+    --Corner-Radius-Mobile-General: var(--px-4);
+    --Corner-Radius-Mobile-Button: var(--px-4);
+    --Corner-Radius-Mobile-Block: var(--px-0);
+    --Corner-Radius-Mobile-Card: var(--px-0);
+
+    /* Grid (Desktop) */
+    --Grid-Desktop-Padding: var(--px-80);
+    --Grid-Desktop-Gap: var(--px-32);
+    --Grid-Desktop-Columns: 12;
+
+    /* Grid (Mobile) */
+    --Grid-Mobile-Padding: var(--px-16);
+    --Grid-Mobile-Gap: var(--px-16);
+    --Grid-Mobile-Columns: 4;
+}
