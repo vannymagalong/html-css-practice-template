@@ -1,1 +1,1 @@
-# html-css-practice-temple
+# html-css-practice-template
