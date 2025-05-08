@@ -2,10 +2,10 @@
 @import url('./common/typography.css');
 @import url('./common/base.css');
 @import url('./common/layout.css');
-@import url('./common/utilities.css');
 
 /* Sections */
 @import url('./sections/hero.css');
+@import url('./sections/hero-fifty.css');
 @import url('./sections/promo-fifty.css');
 @import url('./sections/promo-triple.css');
 @import url('./sections/image-fifty.css');

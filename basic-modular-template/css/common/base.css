@@ -12,6 +12,45 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+.logo {
+    display: flex;
+    column-gap: var(--px-8);
+
+    .logo-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        span:nth-child(1) {
+            font-weight: 500;
+        }
+
+        span:nth-child(2) {
+            margin-top: -9px;
+            letter-spacing: 1px;
+        }
+    }
+
+    .logo-icon {
+        width: 30px;
+        height: 30px;
+        background: linear-gradient(80deg, rgba(184, 60, 22, 0.8) 20%, rgb(184, 60, 22));
+        border-radius: 100%;
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 18px;
+            height: 18px;
+            background-color: var(--Primitive-Primary-Grey-Standard, #F8F8F8);
+            border-radius: 100%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}
+
 .btn {
     border: none;
     display: inline-flex;

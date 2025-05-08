@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>PRACTICE - Basic Modular Template</title>
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nobis sit perspiciatis praesentium, dolor assumenda quia vel aliquid incidunt minima amet ullam nemo expedita illo totam numquam earum ducimus quidem?"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,44 +15,364 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preload" href="../basic-modular-template/assets/images/img-1.png">
   </head>
   <body>
-    <header id="header" class="header"></header>
-    <main id="main"></main>
+    <header id="header" class="header">
+      <div class="logo">
+        <div class="logo-icon"></div>
+        <div class="logo-text">
+          <span class="text-xs">generic logo</span>
+          <span class="headline-lg">company</span>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-images">
+          <img
+            loading="eager"
+            src="../basic-modular-template/assets/images/img-1.png"
+            alt=""
+          />
+        </div>
+        <div class="hero-content container">
+          <div class="hero-text flex-column-center text-primary6">
+            <p class="text-xl">Subtitle goes here</p>
+            <h1 class="headline-4xl">Title goes here</h1>
+          </div>
+          <div class="hero-ctas">
+            <a href="#" class="btn btn-lg btn-white">Call to Action</a>
+            <a href="#" class="btn btn-lg btn-white">Call to Action</a>
+          </div>
+        </div>
+      </section>
+      <!-- END: HERO -->
+
+      <!-- HERO LOW -->
+      <section class="hero hero--low">
+        <div class="hero-images">
+          <img
+            loading="lazy"
+            src="../basic-modular-template/assets/images/img-2.png"
+            alt=""
+          />
+        </div>
+        <div class="hero-content container">
+          <div class="hero-text flex-column-center text-primary6">
+            <p class="text-xl">Subtitle goes here</p>
+            <h1 class="headline-4xl">Title goes here</h1>
+          </div>
+          <div class="hero-ctas">
+            <a href="#" class="btn btn-lg btn-white">Call to Action</a>
+            <a href="#" class="btn btn-lg btn-white">Call to Action</a>
+          </div>
+        </div>
+      </section>
+      <!-- END: HERO LOW -->
+
+      <!-- HERO FIFTY -->
+      <section class="hero-fifty row">
+        <div class="hero-fifty-item col-6">
+          <div class="hero-fifty-image">
+            <img
+              loading="lazy"
+              src="../basic-modular-template/assets/images/img-3.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="hero-fifty-item col-6">
+          <div class="hero-fifty-image">
+            <img
+              loading="lazy"
+              src="../basic-modular-template/assets/images/img-4.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="hero-fifty-content is-full-width row row-center">
+          <div class="hero-fifty-text row row-center text-primary6">
+            <p class="text-xl">Subtitle goes here</p>
+            <h1 class="headline-4xl">Title goes here</h1>
+          </div>
+          <div class="hero-fifty-ctas">
+            <a href="#" class="btn btn-lg btn-white">Call to Action</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero-fifty row">
+        <div class="hero-fifty-item col-6">
+          <div class="hero-fifty-image">
+            <img
+              loading="lazy"
+              src="../basic-modular-template/assets/images/img-2.png"
+              alt=""
+            />
+          </div>
+          <div class="hero-fifty-content row row-center">
+            <div class="hero-fifty-text row row-center text-primary6">
+              <p class="text-xl">Subtitle goes here</p>
+              <h1 class="headline-4xl">Title goes here</h1>
+            </div>
+            <div class="hero-fifty-ctas">
+              <a href="#" class="btn btn-lg btn-white">Call to Action</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-fifty-item col-6">
+          <div class="hero-fifty-image">
+            <img
+              loading="lazy"
+              src="../basic-modular-template/assets/images/img-1.png"
+              alt=""
+            />
+          </div>
+          <div class="hero-fifty-content row row-center">
+            <div class="hero-fifty-text row row-center text-primary6">
+              <p class="text-xl">Subtitle goes here</p>
+              <h1 class="headline-4xl">Title goes here</h1>
+            </div>
+            <div class="hero-fifty-ctas">
+              <a href="#" class="btn btn-lg btn-white">Call to Action</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END: HERO FIFTY -->
+
+      <!-- PROMO FIFTY -->
+      <section class="promo-fifty">
+        <div class="promo-fifty-wrap row row-center">
+          <div class="promo-image col-6 ratio--16-9">
+            <img
+              loading="lazy"
+              src="../basic-modular-template/assets/images/img-1.png"
+              alt=""
+            />
+          </div>
+          <div class="promo-content col-6">
+            <div class="promo-text">
+              <h2 class="text-2xl">The title goes here</h2>
+              <p class="text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus autem iure cumque quidem voluptatem omnis aut
+                debitis numquam, ut magnam consequatur, sequi molestias
+                voluptas. Modi libero iusto ratione quos culpa?
+              </p>
+            </div>
+            <a href="#" class="btn btn-lg btn-black">Call to Action</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-fifty is-text-first">
+        <div class="promo-fifty-wrap row row-center">
+          <div class="promo-image col-6 ratio--1-1">
+            <img
+              loading="lazy"
+              src="../basic-modular-template/assets/images/img-1.png"
+              alt=""
+            />
+          </div>
+          <div class="promo-content col-6 is-center">
+            <div class="promo-text">
+              <h2 class="text-2xl">The title goes here</h2>
+              <p class="text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus autem iure cumque quidem voluptatem omnis aut
+                debitis numquam, ut magnam consequatur, sequi molestias
+                voluptas. Modi libero iusto ratione quos culpa?
+              </p>
+            </div>
+            <a href="#" class="btn btn-lg btn-black">Call to Action</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-fifty">
+        <div class="promo-fifty-wrap row row-center">
+          <div class="promo-image col-6 ratio--1-1">
+            <img
+              loading="lazy"
+              src="../basic-modular-template/assets/images/img-1.png"
+              alt=""
+            />
+          </div>
+          <div class="promo-content col-6 is-right">
+            <div class="promo-text">
+              <h2 class="text-2xl">The title goes here</h2>
+              <p class="text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus autem iure cumque quidem voluptatem omnis aut
+                debitis numquam, ut magnam consequatur, sequi molestias
+                voluptas. Modi libero iusto ratione quos culpa?
+              </p>
+            </div>
+            <a href="#" class="btn btn-lg btn-black">Call to Action</a>
+          </div>
+        </div>
+      </section>
+      <!-- END: PROMO FIFTY -->
+
+      <!-- PROMO TRIPLE -->
+      <section class="promo-triple">
+        <div class="promo-triple-list container">
+          <a href="#" class="promo-item ratio--16-9">
+            <img
+              loading="lazy"
+              class="promo-item-image"
+              src="../basic-modular-template/assets/images/img-3.png"
+              alt=""
+            />
+            <p class="promo-item-text text-xl text-primary6">Promo 1</p>
+          </a>
+          <a href="#" class="promo-item ratio--16-9">
+            <img
+              loading="lazy"
+              class="promo-item-image"
+              src="../basic-modular-template/assets/images/img-4.png"
+              alt=""
+            />
+            <p class="promo-item-text text-xl text-primary6">Promo 2</p>
+          </a>
+          <a href="#" class="promo-item ratio--16-9">
+            <img
+              loading="lazy"
+              class="promo-item-image"
+              src="../basic-modular-template/assets/images/img-5.png"
+              alt=""
+            />
+            <p class="promo-item-text text-xl text-primary6">Promo 3</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="promo-triple">
+        <div class="promo-triple-list pt-0 container">
+          <a href="#" class="promo-item ratio--1-1">
+            <img
+              loading="lazy"
+              class="promo-item-image"
+              src="../basic-modular-template/assets/images/img-3.png"
+              alt=""
+            />
+            <p class="promo-item-text text-xl text-primary6">Promo 1</p>
+          </a>
+          <a href="#" class="promo-item ratio--1-1">
+            <img
+              loading="lazy"
+              class="promo-item-image"
+              src="../basic-modular-template/assets/images/img-4.png"
+              alt=""
+            />
+            <p class="promo-item-text text-xl text-primary6">Promo 2</p>
+          </a>
+          <a href="#" class="promo-item ratio--1-1">
+            <img
+              loading="lazy"
+              class="promo-item-image"
+              src="../basic-modular-template/assets/images/img-5.png"
+              alt=""
+            />
+            <p class="promo-item-text text-xl text-primary6">Promo 3</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="promo-triple">
+        <div class="promo-triple-list pt-0 container">
+          <a href="#" class="promo-item ratio--4-5">
+            <img
+              loading="lazy"
+              class="promo-item-image"
+              src="../basic-modular-template/assets/images/img-1.png"
+              alt=""
+            />
+            <p class="promo-item-text text-xl text-primary6">Promo 1</p>
+          </a>
+          <a href="#" class="promo-item ratio--4-5">
+            <img
+              loading="lazy"
+              class="promo-item-image"
+              src="../basic-modular-template/assets/images/img-1.png"
+              alt=""
+            />
+            <p class="promo-item-text text-xl text-primary6">Promo 2</p>
+          </a>
+          <a href="#" class="promo-item ratio--4-5">
+            <img
+              loading="lazy"
+              class="promo-item-image"
+              src="../basic-modular-template/assets/images/img-1.png"
+              alt=""
+            />
+            <p class="promo-item-text text-xl text-primary6">Promo 3</p>
+          </a>
+        </div>
+      </section>
+      <!-- END: PROMO TRIPLE -->
+
+      <!-- IMAGE FIFTY -->
+      <section class="image-fifty pb-0 row">
+        <div class="hero-image ratio--1-1">
+          <img
+            loading="lazy"
+            src="../basic-modular-template/assets/images/img-3.png"
+            alt=""
+          />
+        </div>
+        <div class="hero-image ratio--1-1">
+          <img
+            loading="lazy"
+            src="../basic-modular-template/assets/images/img-4.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="image-fifty row">
+        <div class="hero-image ratio--16-9">
+          <img
+            loading="lazy"
+            src="../basic-modular-template/assets/images/img-3.png"
+            alt=""
+          />
+        </div>
+        <div class="hero-image ratio--16-9">
+          <img
+            loading="lazy"
+            src="../basic-modular-template/assets/images/img-4.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- END: IMAGE FIFTY -->
+
+      <!-- VIDEO -->
+      <section class="video row row-center">
+        <div class="col-10" style="padding: 56.25% 0 0 0; position: relative">
+          <iframe
+            src="https://player.vimeo.com/video/265627925?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
+            title="Abaci @ Fabi Shoes"
+          ></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </section>
+
+      <!-- END: VIDEO -->
+    </main>
     <div id="footer"></div>
-
-    <script>
-      fetch("partials/header.html")
-        .then((res) => res.text())
-        .then((data) => (document.getElementById("header").innerHTML = data));
-
-      const sections = [
-        "hero", 
-        "hero-low", 
-        "hero-fifty",
-        "promo-fifty",
-        "promo-triple",
-        "image-fifty",
-        "video"
-      ];
-      let sectionContents = [];
-      if (sections.length) {
-        sections.forEach((name) => {
-          fetch(`sections/${name}.html`)
-            .then((response) => {
-              if (response.ok) return response.text();
-            })
-            .then((data) => sectionContents.push(data));
-        });
-
-        setTimeout(() => {
-          document.getElementById("main").innerHTML = sectionContents.join("");
-        }, 100);
-      }
-
-      fetch("partials/footer.html")
-        .then((res) => res.text())
-        .then((data) => (document.getElementById("footer").innerHTML = data));
-    </script>
   </body>
 </html>
