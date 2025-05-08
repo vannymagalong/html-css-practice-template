@@ -4,7 +4,7 @@ A practice repo for building modular page templates with HTML and CSS.
 
 ## Live Site
 
-[Visit the live projects](https://vannymagalong.github.io/html-css-mini-projects/)
+[Visit the live projects](https://vannymagalong.github.io/html-css-practice-template/)
 
 ## Modules list
 
