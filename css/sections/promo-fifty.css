@@ -55,7 +55,7 @@
                 .promo-text {            
                     p {
                         overflow: hidden;
-                        max-height: 34px;
+                        max-height: calc(calc(var(--Line-Height-Mobile-Base) * 2) - var(--MD-Font-Adjustment));
                     }
                 }
             }

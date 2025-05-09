@@ -172,6 +172,100 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* MEDIA QUERY */
 @media screen {
+    @media (max-width: 1080px) {
+        .headline-4xl {
+            font-size: calc(var(--Size-Desktop-4XL) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-4XL) - var(--MD-Font-Adjustment));
+        }
+        
+        .headline-3xl {
+            font-size: calc(var(--Size-Desktop-3XL) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-3XL) - var(--MD-Font-Adjustment));
+        }
+        
+        .headline-2xl {
+            font-size: calc(var(--Size-Desktop-2XL) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-2XL) - var(--MD-Font-Adjustment));
+        }
+        
+        .headline-xl {
+            font-size: calc(var(--Size-Desktop-XL) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Mobile-XL) - var(--MD-Font-Adjustment));
+        }
+        
+        .headline-lg {
+            font-size: calc(var(--Size-Desktop-LG) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-2XL) - var(--MD-Font-Adjustment));
+        }
+        
+        .headline-md {
+            font-size: calc(var(--Size-Desktop-MD) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-MD) - var(--MD-Font-Adjustment));
+        }
+        
+        .headline-sm {
+            font-size: calc(var(--Size-Desktop-SM) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-SM) - var(--MD-Font-Adjustment));
+        }
+        
+        .headline-base {
+            font-size: calc(var(--Size-Desktop-Base) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-Base) - var(--MD-Font-Adjustment));
+        }
+        
+        .headline-xs {
+            font-size: calc(var(--Size-Desktop-Base) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-Base) - var(--MD-Font-Adjustment));
+        }
+        
+        /* TEXT */
+        
+        .text-4xl {
+            font-size: calc(var(--Size-Desktop-4XL) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-4XL) - var(--MD-Font-Adjustment));
+        }
+        
+        .text-3xl {
+            font-size: calc(var(--Size-Desktop-3XL) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-3XL) - var(--MD-Font-Adjustment));
+        }
+        
+        .text-2xl {
+            font-size: calc(var(--Size-Desktop-2XL) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-2XL) - var(--MD-Font-Adjustment));
+        }
+        
+        .text-xl {
+            font-size: calc(var(--Size-Desktop-XL) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-XL) - var(--MD-Font-Adjustment));
+        }
+        
+        .text-lg {
+            font-size: calc(var(--Size-Desktop-LG) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-LG) - var(--MD-Font-Adjustment));
+        }
+        
+        .text-md {
+            font-size: calc(var(--Size-Desktop-MD) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-MD) - var(--MD-Font-Adjustment));
+        }
+        
+        .text-sm {
+            font-size: calc(var(--Size-Desktop-SM) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-SM) - var(--MD-Font-Adjustment));
+        }
+        
+        .text-base {
+            font-size: calc(var(--Size-Desktop-Base) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-Base) - var(--MD-Font-Adjustment));
+        }
+        
+        .text-xs {
+            font-size: calc(var(--Size-Desktop-XS) - var(--MD-Font-Adjustment));
+            line-height: calc(var(--Line-Height-Desktop-XS) - var(--MD-Font-Adjustment));
+        }
+    }
+
     @media (max-width: 750px) {
         .headline-4xl {
             font-size: var(--Size-Mobile-4XL);
@@ -199,8 +293,8 @@ p, h1, h2, h3, h4, h5, h6 {
         }
         
         .headline-md {
-            font-size: var(--Size-Desktop-MD);
-            line-height: var(--Line-Height-Desktop-MD);
+            font-size: var(--Size-Mobile-MD);
+            line-height: var(--Line-Height-Mobile-MD);
         }
         
         .headline-sm {
