@@ -12,6 +12,10 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .logo {
     display: flex;
     column-gap: var(--px-8);
@@ -59,7 +63,6 @@ p, h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     cursor: pointer;
     color: var(--Primitive-Primary-Black);
-    -webkit-tap-highlight-color: transparent;
 
     &.btn-black {
         background-color: var(--Primitive-Primary-Black);
