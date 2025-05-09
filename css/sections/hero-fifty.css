@@ -39,6 +39,17 @@
 
 /* MEDIA QUERY */
 @media screen {
+    @media (min-width: 1441px) {
+        .hero-fifty {
+            .hero-fifty-content {
+                .hero-fifty-ctas {
+                    bottom: calc(var(--px-64) + 5%);
+                }
+            }
+        
+        }
+    }
+
     @media (max-width: 1080px) {
         .hero-fifty {
             .hero-fifty-content {
