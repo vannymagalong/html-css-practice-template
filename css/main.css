@@ -2,6 +2,7 @@
 @import url('./common/typography.css');
 @import url('./common/base.css');
 @import url('./common/layout.css');
+@import url('./common/component.css');
 
 /* Sections */
 @import url('./sections/hero.css');

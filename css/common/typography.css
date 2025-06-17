@@ -146,10 +146,10 @@ p, h1, h2, h3, h4, h5, h6 {
 .text-sm {
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: var(--Font-Family-Text, Karla);
-    font-size: var(--Size-Desktop-SM, 14px);
+    font-size: var(--Size-Desktop-SM, 16px);
     font-style: normal;
     font-weight: var(--Font-Weight-Regular, 400);
-    line-height: var(--Line-Height-Desktop-SM, 17px);
+    line-height: var(--Line-Height-Desktop-SM, 20px);
 }
 
 .text-base {

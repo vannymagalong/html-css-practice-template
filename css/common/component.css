@@ -1,0 +1,25 @@
+
+/* INPUT */
+.form-field {
+    display: inline-block;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='url'] {
+    display: flex;
+    width: 100%;
+    height: var(--px-48, 48px);
+    padding: 0px var(--px-16, 16px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border: 1px solid var(--Primitive-Primary-Grey-Dark, #ADADAB);
+    background: var(--Primitive-Primary-White, #FFF);
+
+    &::placeholder {
+        opacity: 0.8;
+    }
+}

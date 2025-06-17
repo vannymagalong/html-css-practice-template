@@ -14,23 +14,23 @@
       href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="tailwind/output.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="preload" href="assets/images/img-1.jpg">
   </head>
   <body>
     <header id="header" class="header">
 
-      <!-- <div class="top-banner bg-primary1 text-primary6">
+      <div class="top-banner bg-primary1 text-primary6">
         <div class="top-banner-usp">
           <div class="top-banner-usp-item text-xs">Important news 1</div>
           <div class="top-banner-usp-item text-xs">Important news 1</div>
           <div class="top-banner-usp-item text-xs">Important news 1</div>
         </div>
-      </div> -->
+      </div>
 
-      <div class="w-full max-w-1440 m-auto text-sm text-primary1">
+      <div class="main-navigation text-sm text-primary1">
         <!-- Navigation Left -->
-        <!-- <div class="nav nav--left">
+        <div class="nav nav--left">
           <ul class="nav-list">
             <li class="nav-list-item">
               <a href="">Shop</a>
@@ -93,44 +93,44 @@
             <li class="nav-list-item"><a href="">Blog</a></li>
             <li class="nav-list-item"><a href="">Customer Service</a></li>
           </ul>
-        </div> -->
+        </div>
         <!-- END: Navigation Left -->
 
         <!-- Logo -->
-        <div class="absolute left-1/2 transform-[translateX(-50%)]">
-          <div class="flex gap-x-[var(--px-8)]">
-            <div class="w-[30px] h-[30px] bg-linear"></div>
-            <div class="flex flex-col justify-center">
-              <span class="font-medium">generic logo</span>
-              <span class="mt-[-9px] tracking-[1px]">company</span>
+        <div class="nav-logo">
+          <div class="logo">
+            <div class="logo-icon"></div>
+            <div class="logo-text">
+              <span class="text-xs">generic logo</span>
+              <span class="headline-lg">company</span>
             </div>
           </div>
         </div>
         <!-- End: Logo -->
 
         <!-- Navigation Right -->
-        <!-- <div class="nav nav--right">
+        <div class="nav nav--right">
           <ul class="nav-list">
-            <li class="nav-list-item text-underline"><a href="">SE/SEK</a></li> -->
+            <li class="nav-list-item text-underline"><a href="">SE/SEK</a></li>
             <!-- Account -->
-            <!-- <li class="nav-list-item nav-list-item--icon">
+            <li class="nav-list-item nav-list-item--icon">
               <a href="">
                 <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.9902 24.0007H15.9902V18.9577C15.9894 18.1737 15.6776 17.4221 15.1233 16.8677C14.5689 16.3133 13.8172 16.0015 13.0332 16.0007H4.94723C4.16323 16.0015 3.41157 16.3133 2.8572 16.8677C2.30282 17.4221 1.99103 18.1737 1.99023 18.9577V24.0007H-0.00976562V18.9577C-0.0081778 17.6435 0.514586 16.3836 1.44386 15.4544C2.37313 14.5251 3.63304 14.0023 4.94723 14.0007H13.0332C14.3474 14.0023 15.6073 14.5251 16.5366 15.4544C17.4659 16.3836 17.9886 17.6435 17.9902 18.9577V24.0007Z" fill="black"/>
                 <path d="M8.99024 12C7.80355 12 6.64351 11.6481 5.65682 10.9888C4.67012 10.3295 3.90109 9.39246 3.44696 8.2961C2.99283 7.19975 2.87401 5.99335 3.10553 4.82946C3.33704 3.66558 3.90848 2.59648 4.7476 1.75736C5.58671 0.918247 6.65581 0.346802 7.8197 0.115291C8.98358 -0.11622 10.19 0.00259972 11.2863 0.456726C12.3827 0.910851 13.3198 1.67989 13.9791 2.66658C14.6383 3.65328 14.9902 4.81331 14.9902 6C14.9887 7.59081 14.356 9.11602 13.2311 10.2409C12.1063 11.3658 10.581 11.9984 8.99024 12ZM8.99024 2C8.19911 2 7.42575 2.2346 6.76796 2.67412C6.11016 3.11365 5.59747 3.73836 5.29472 4.46927C4.99197 5.20017 4.91276 6.00444 5.0671 6.78036C5.22144 7.55629 5.6024 8.26902 6.16181 8.82843C6.72122 9.38784 7.43395 9.7688 8.20988 9.92314C8.9858 10.0775 9.79007 9.99827 10.521 9.69552C11.2519 9.39277 11.8766 8.88008 12.3161 8.22228C12.7556 7.56449 12.9902 6.79113 12.9902 6C12.9902 4.93914 12.5688 3.92172 11.8187 3.17158C11.0685 2.42143 10.0511 2 8.99024 2Z" fill="black"/>
                 </svg>
               </a>
-            </li> -->
+            </li>
             <!-- Wishlist -->
-            <!-- <li class="nav-list-item nav-list-item--icon">
+            <li class="nav-list-item nav-list-item--icon">
               <a href="">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path id="Vector" d="M17.4951 0.804443C16.369 0.821958 15.2675 1.1363 14.3018 1.71571C13.3361 2.29513 12.5404 3.11911 11.9951 4.10444C11.4497 3.11911 10.654 2.29513 9.68831 1.71571C8.72262 1.1363 7.62113 0.821958 6.49508 0.804443C4.70002 0.882434 3.00878 1.6677 1.79086 2.98868C0.572935 4.30965 -0.0726751 6.05897 -0.00492452 7.85444C-0.00492452 14.6294 10.9511 22.4544 11.4171 22.7864L11.9951 23.1954L12.5731 22.7864C13.0391 22.4564 23.9951 14.6294 23.9951 7.85444C24.0628 6.05897 23.4172 4.30965 22.1993 2.98868C20.9814 1.6677 19.2901 0.882434 17.4951 0.804443ZM11.9951 20.7334C8.74207 18.3034 1.99508 12.3334 1.99508 7.85444C1.92672 6.58916 2.36144 5.34817 3.20444 4.40214C4.04744 3.45611 5.23031 2.88179 6.49508 2.80444C7.75984 2.88179 8.94271 3.45611 9.78571 4.40214C10.6287 5.34817 11.0634 6.58916 10.9951 7.85444H12.9951C12.9267 6.58916 13.3614 5.34817 14.2044 4.40214C15.0474 3.45611 16.2303 2.88179 17.4951 2.80444C18.7598 2.88179 19.9427 3.45611 20.7857 4.40214C21.6287 5.34817 22.0634 6.58916 21.9951 7.85444C21.9951 12.3354 15.2481 18.3034 11.9951 20.7334Z" fill="black"/>
                   </svg>
               </a>
-            </li> -->
+            </li>
             <!-- Search -->
-            <!-- <li class="nav-list-item nav-list-item--icon">
+            <li class="nav-list-item nav-list-item--icon">
               <a href="">
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g id="01 align center">
@@ -138,9 +138,9 @@
                   </g>
                   </svg>
               </a>
-            </li> -->
+            </li>
             <!-- Cart -->
-            <!-- <li class="nav-list-item nav-list-item--icon nav-list-item--cart">
+            <li class="nav-list-item nav-list-item--icon nav-list-item--cart">
               <a href="">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g id="01 align center">
@@ -153,9 +153,9 @@
                   <span class="text-xs">2</span>
                 </div>
               </a>
-            </li> -->
-          <!-- </ul>
-        </div> -->
+            </li>
+          </ul>
+        </div>
         <!-- END: Navigation Right -->
       </div>
     </header>
